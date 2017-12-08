@@ -1,0 +1,64 @@
+<xml>
+
+  <dir>
+    <title>TMDB Movies</title>
+    <link>http://bit.ly/2BzSNyN</link>
+  </dir>
+
+  <dir>
+    <title>TMDB TV</title>
+    <link>http://bit.ly/2BC4swV</link>
+  </dir>
+
+  <dir>
+    <title>Search TMDB</title>
+    <tmdb>search</tmdb>
+  </dir>
+
+  <dir>
+    <title>2017 Movies</title>
+    <tmdb>year/movies/2017</tmdb>
+  </dir>
+
+  <dir>
+    <title>Trakt Movies</title>
+    <link>http://bit.ly/2kgqj95</link>
+  </dir>
+
+  <dir>
+    <title>Chick Movies</title>
+    <link>http://bit.ly/2nnR50t</link>
+  </dir>
+
+  <dir>
+    <title>Trakt TV</title>
+    <link>http://bit.ly/2BD6i0w</link>
+  </dir>
+
+  <dir>
+    <title>Search Trakt</title>
+    <trakt>search</trakt>
+  </dir>
+
+<dir>
+        <name>Funny or Fail</name>
+        <link>http://bit.ly/2Bn3Fz6</link>
+        <thumbnail>https://i.imgur.com/PlRw2Kg.jpg</thumbnail>
+        <fanart>https://i.imgur.com/oRQ8AkG.jpg</fanart>
+</dir>
+
+<dir>
+        <name>Funny Too</name>
+        <link>http://bit.ly/2jwYBAG</link>
+        <thumbnail>https://i.imgur.com/ExWU1C1.jpg</thumbnail>
+        <fanart>https://i.imgur.com/A2vyjHU.jpg</fanart>
+</dir>
+
+<plugin>
+<name>30701</name>
+<link>plugin://plugin.video.myaddon/?action=openSettings</link>
+<animated_thumbnail>https://i.imgur.com/IbE1sZg.gif</animated_thumbnail>
+<thumbnail>https://i.imgur.com/TQTi54Z.jpg</thumbnail>
+</plugin>
+
+</xml>

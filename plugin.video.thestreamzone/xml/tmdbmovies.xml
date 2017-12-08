@@ -1,0 +1,71 @@
+
+    <dir>
+      <title>Popular</title>
+      <tmdb>movies/popular</tmdb>
+    </dir>
+
+    <dir>
+      <title>Now Playing</title>
+      <tmdb>movies/now_playing</tmdb>
+    </dir>
+	
+    <dir>
+      <title>TMDB Upcoming</title>
+      <tmdb>movie/upcoming</tmdb>
+      <summary>Shows Trailers For Upcoming Movies</summary>
+    </dir>
+
+    <dir>
+      <title>Top Rated</title>
+      <tmdb>movies/top_rated</tmdb>
+    </dir>
+
+    <dir>
+      <title>Genre</title>
+      <link>http://bit.ly/2AkqEgT</link>
+    </dir>
+
+    <dir>
+      <title>By Year</title>
+      <link>http://bit.ly/2nq2A7y</link>
+    </dir>
+
+  <dir>
+    <title>2017 Movies</title>
+    <tmdb>year/movies/2014</tmdb>
+  </dir>
+
+    <dir>
+      <title>Actors</title>
+      <link>http://bit.ly/2BEcGVu</link>
+    </dir>
+
+    <dir>
+      <title>Actresses</title>
+      <link>http://bit.ly/2BC5Yze</link>
+    </dir>
+
+    <dir>
+      <title>Collections</title>
+      <link>http://bit.ly/2keZdis</link>
+    </dir>
+
+    <dir>
+      <title>Lists</title>
+      <link>http://bit.ly/2kfxiyV</link>
+    </dir>
+
+    <dir>
+      <title>Keywords</title>
+      <link>http://bit.ly/2kc3e7h</link>
+    </dir>
+
+    <dir>
+      <title>Companies</title>
+      <link>http://bit.ly/2AkLBrR</link>
+    </dir>
+
+    <dir>
+      <title>Search TMDB</title>
+      <tmdb>search</tmdb>
+    </dir>
