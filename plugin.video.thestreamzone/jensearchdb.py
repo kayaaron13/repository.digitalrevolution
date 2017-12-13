@@ -266,16 +266,16 @@ def get_xml(url):
 
 
 def main():
-    main_url = "http://revolution-digital.net/streamzonexml/main.xml"  #your main.xml url goes here
+    main_url = "http://yoururl/yourmain.xml"  #your main.xml url goes here
     sections = [
-        {'name': 'search', # can change jen to whatever you want.  This wil name the output xml jen.xml
-         'url': "https://revolution-digital.net/streamzonexml/main.xml", # your section xml goes here
-         'poster': 'search'}, # can change Jen to whatever you want. This will be displayed as the poster name on jen.xml and
+        {'name': 'jen', # can change jen to whatever you want.  This wil name the output xml jen.xml
+         'url': "http://yoururlforthesectionyouwant.xml", # your section xml goes here
+         'poster': 'Jen'}, # can change Jen to whatever you want. This will be displayed as the poster name on jen.xml and
                            # also in the actual search in your addon in kodi eg Jen - The Avengers
     ]
 
-    os.remove("http://revolution-digital.net/streamzonexml/output/search.db")  # add the directory to where this file is stored
-    dbcon = database.connect("http://revolution-digital.net/streamzonexml//output/search.db") # add the directory to where this file is stored
+    os.remove("./output/search.db")  # add the directory to where this file is stored
+    dbcon = database.connect("./output/search.db") # add the directory to where this file is stored
     dbcur = dbcon.cursor()
     dbcur.execute(
         "CREATE TABLE IF NOT EXISTS search (""item TEXT, ""poster TEXT);")
@@ -287,7 +287,7 @@ def main():
         print("#####################################")
         print(section['url'])
         xml, errors = recurse_list(section['url'])
-        file = open("http://revolution-digital.net/streamzonexml//output/" + section['name'] + ".xml", "wb")
+        file = open("./output/" + section['name'] + ".xml", "wb")
         xml = "<poster>%s</poster>\n" \
               "<cache>43200</cache>\n\n" % section['poster'] + xml
         file.write(xml.encode('utf-8'))

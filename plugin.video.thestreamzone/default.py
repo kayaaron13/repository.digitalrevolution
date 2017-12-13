@@ -134,8 +134,9 @@ def all_episodes(url):
         if dialog.iscanceled():
             break
         percent = ((index + 1) * 100) / num_urls
-        dialog.update(percent, _("processing lists"), _("%s of %s") % (index + 1,
-                                                                 num_urls))
+        dialog.update(percent, _("processing lists"), _("%s of %s") % (
+            index + 1,
+            num_urls))
 
         jen_list = JenList(season_url)
         result_items.extend(jen_list.get_list(skip_dialog=True))
@@ -182,6 +183,7 @@ def clear_cache():
             xbmc.translatePath(xbmcaddon.Addon().getSetting("cache_folder")),
             "artcache")
         koding.Delete_Folders(dest_folder)
+    xbmc.log("running hook:", xbmc.LOGNOTICE)
     run_hook("clear_cache")
 
 
@@ -210,9 +212,16 @@ if foldername in ["", "plugin.program.super.favourites"]:
 else:
     __builtin__.JEN_WIDGET = False
 
+xbmcplugin.addSortMethod(int(sys.argv[1]), xbmcplugin.SORT_METHOD_NONE)
+xbmcplugin.addSortMethod(int(sys.argv[1]), xbmcplugin.SORT_METHOD_LABEL)
+
 router.Run()
 
 xbmcplugin.endOfDirectory(int(sys.argv[1]), cacheToDisc=False)
+try:
+    content_type = __builtin__.content_type
+except:
+    pass
 if not xbmcaddon.Addon().getSetting("first_run") == "true":
     if content_type == "files":
         content_type = "other"

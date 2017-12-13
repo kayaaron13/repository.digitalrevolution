@@ -322,53 +322,53 @@ class Sources(object):
                 extended=True)
             if type(link) == dict and "path" in link:
                 link = link["path"]
-                if link is None:
-                    return False
-                url = link['url']
-                if ADDON.getSetting('link_fallthrough') == 'true':
-                    played = False
-                    index = 0
-                    links = []
-                    for item in rest:
-                        if type(item) == dict and "path" in item:
-                            links.extend(item["path"][1])
-                        else:
-                            links.extend(item[1])
-                    index = links.index(link)
-                    links = links[index + 1:]
-                    num_results = len(rest) + 1
-                    while not played:
-                        try:
-                            if dialog is not None and dialog.iscanceled():
-                                return
-                            if dialog is not None:
-                                index = index + 1
-                                percent = int((index * 100) / num_results)
-                                line = "%s - %s (%s)" % (link['scraper'],
-                                                         link['source'],
-                                                         link['quality'])
-                                dialog.update(percent, line)
-                        except:
-                            pass
-                        try:
-                            played = output_function(
-                                url,
-                                showbusy=False,
-                                ignore_dp=True,
-                                item=listitem,
-                                player=player)
-                            link = links[0]
-                            links = links[1:]
-                        except:
-                            return False
-                    return played
-                else:
-                    return output_function(
-                        url,
-                        showbusy=False,
-                        ignore_dp=True,
-                        item=listitem,
-                        player=player)
+            if link is None:
+                return False
+            url = link['url']
+            if ADDON.getSetting('link_fallthrough') == 'true':
+                played = False
+                index = 0
+                links = []
+                for item in rest:
+                    if type(item) == dict and "path" in item:
+                        links.extend(item["path"][1])
+                    else:
+                        links.extend(item[1])
+                index = links.index(link)
+                links = links[index + 1:]
+                num_results = len(rest) + 1
+                while not played:
+                    try:
+                        if dialog is not None and dialog.iscanceled():
+                            return
+                        if dialog is not None:
+                            index = index + 1
+                            percent = int((index * 100) / num_results)
+                            line = "%s - %s (%s)" % (link['scraper'],
+                                                     link['source'],
+                                                     link['quality'])
+                            dialog.update(percent, line)
+                    except:
+                        pass
+                    try:
+                        played = output_function(
+                            url,
+                            showbusy=False,
+                            ignore_dp=True,
+                            item=listitem,
+                            player=player)
+                        link = links[0]
+                        links = links[1:]
+                    except:
+                        return False
+                return played
+            else:
+                return output_function(
+                    url,
+                    showbusy=False,
+                    ignore_dp=True,
+                    item=listitem,
+                    player=player)
         links_scraper = nanscrapers.scrape_song(
             title,
             artist,
@@ -464,7 +464,35 @@ class Sources(object):
         else:
             quality = item[1][0]["path"]["quality"]
 
-        if quality.startswith("1080"):
+        if "path" in item[1][0]:
+            if 'debridonly' in item[1][0]["path"]:
+                q = "A"
+        elif 'debridonly' in item[1][0]:
+            q = "A"
+        else:
+            q = "B"
+
+        if q == "A":
+            if quality.startswith("1080"):
+                quality = "Aa"
+            elif quality.startswith("720"):
+                quality = "Ab"
+            elif quality.startswith("560"):
+                quality = "Ac"
+            elif quality == "DVD":
+                quality = "Ad"
+            elif quality == "HD":
+                quality = "Ae"
+            elif quality.startswith("480"):
+                quality = "Ba"
+            elif quality.startswith("360"):
+                quality = "Bb"
+            elif quality.startswith("SD"):
+                quality = "Bc"
+            else:
+                quality = "CZ"
+
+        elif quality.startswith("1080"):
             quality = "HDa"
         elif quality.startswith("720"):
             quality = "HDb"

@@ -17,13 +17,15 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
-from resources.lib.util.url import get_addon_url
-from resources.lib.util.views import save_view_mode
+import __builtin__
+
 import resources.lib.external.tvdb_api as tvdb_api
 import xbmc
 import xbmcaddon
 from language import get_string as _
-import __builtin__
+from resources.lib.plugin import run_hook
+from resources.lib.util.url import get_addon_url
+
 
 ADDON = xbmcaddon.Addon()
 if ADDON.getSetting("language_id") == "system":
@@ -115,31 +117,37 @@ def get_context_items(item):
         context.append((_("Clear Queue"),
                         "RunPlugin({0})".format(
                             get_addon_url("clear_queue"))))
+    try:
+        if content == "movie":
+            context.append((_("Queue Movie"),
+                            "RunPlugin({0})".format(
+                                get_addon_url("queue",
+                                              item.item_string))))
+        elif content == "tvshow":
+            context.append((_("Queue TV Show"),
+                            "RunPlugin({0})".format(
+                                get_addon_url("queue",
+                                              item.item_string))))
+        elif content == "season":
+            context.append((_("Queue Season"),
+                            "RunPlugin({0})".format(
+                                get_addon_url("queue",
+                                              item.item_string))))
+        elif content == "episode":
+            context.append((_("Queue Episode"),
+                            "RunPlugin({0})".format(
+                                get_addon_url("queue",
+                                              item.item_string))))
+        else:
+            context.append((_("Queue Item"),
+                            "RunPlugin({0})".format(
+                                get_addon_url("queue",
+                                              item.item_string))))
+    except:
+        pass
 
-    if content == "movie":
-        context.append((_("Queue Movie"),
-                        "RunPlugin({0})".format(
-                            get_addon_url("queue",
-                                          item.item_string))))
-    elif content == "tvshow":
-        context.append((_("Queue TV Show"),
-                        "RunPlugin({0})".format(
-                            get_addon_url("queue",
-                                          item.item_string))))
-    elif content == "season":
-        context.append((_("Queue Season"),
-                        "RunPlugin({0})".format(
-                            get_addon_url("queue",
-                                          item.item_string))))
-    elif content == "episode":
-        context.append((_("Queue Episode"),
-                        "RunPlugin({0})".format(
-                            get_addon_url("queue",
-                                          item.item_string))))
-    else:
-        context.append((_("Queue Item"),
-                        "RunPlugin({0})".format(
-                            get_addon_url("queue",
-                                          item.item_string))))
+    hook_result = run_hook("get_context_items", item, context)
+    if hook_result:
+        return hook_result
 
     return context
