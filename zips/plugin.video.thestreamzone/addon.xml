@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.thestreamzone" name="[COLOR yellow][B]T[/COLOR][/B]he Stream Zone" version="3.1" provider-name="A2TheKay--midraal">
+<addon id="plugin.video.thestreamzone" name="[COLOR yellow][B]T[/COLOR][/B]he [COLOR yellow][B]S[/COLOR][/B]tream [COLOR yellow][B]Z[/COLOR][/B]one" version="3.2" provider-name="A2TheKay--midraal">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
