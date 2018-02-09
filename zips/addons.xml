@@ -68,7 +68,7 @@ provider-name="primaeval">
 
 </addon>
 
-<addon id="plugin.video.jre" name="The Joe Rogan Experience" version="1.4" provider-name="A2TheKay--midraal">
+<addon id="plugin.video.jre" name="The Joe Rogan Experience" version="1.5" provider-name="A2TheKay--midraal">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
@@ -78,7 +78,7 @@ provider-name="primaeval">
         <import addon="script.module.addon.common" version="2.0.0" />
         <import addon="script.module.xmltodict" version="0.9.0" />
         <!--<import addon="script.module.web-pdb" version="1.0"/>-->
-        <import addon="script.module.urlresolver" version="1.2.0" />
+        <import addon="script.module.resolveurl" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>audio video</provides>
@@ -120,7 +120,7 @@ provider-name="primaeval">
     </extension>
 </addon>
 
-<addon id="plugin.video.thestreamzone" name="[COLOR yellow][B]T[/COLOR][/B]he [COLOR yellow][B]S[/COLOR][/B]tream [COLOR yellow][B]Z[/COLOR][/B]one" version="3.6" provider-name="A2TheKay--midraal">
+<addon id="plugin.video.thestreamzone" name="[COLOR yellow][B]T[/COLOR][/B]he [COLOR yellow][B]S[/COLOR][/B]tream [COLOR yellow][B]Z[/COLOR][/B]one" version="3.7" provider-name="A2TheKay--midraal">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
@@ -131,7 +131,7 @@ provider-name="primaeval">
         <import addon="script.module.thetvdb" version="0.0.1" />
         <import addon="script.module.xmltodict" version="0.9.0" />
         <!--<import addon="script.module.web-pdb" version="1.0"/>-->
-        <import addon="script.module.urlresolver" version="1.2.0" />
+        <import addon="script.module.resolveurl" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>

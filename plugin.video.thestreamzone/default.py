@@ -156,7 +156,7 @@ def scraper_settings():
 
 @route(mode="ResolverSettings")
 def resolver_settings():
-    xbmcaddon.Addon('script.module.urlresolver').openSettings()
+    xbmcaddon.Addon('script.module.resolveurl').openSettings()
 
 
 @route(mode="message", args=["url"])

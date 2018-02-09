@@ -28,6 +28,8 @@ from koding import route
 import sys
 import xbmcplugin
 
+import resolveurl
+
 from resources.lib.util.xml import JenItem, JenList
 from resources.lib.util.messages import get_link_message, get_searching_message
 from resources.lib.util.info import get_info
@@ -155,7 +157,8 @@ class Sources(object):
                             showbusy=False,
                             ignore_dp=True,
                             item=listitem,
-                            player=player)
+                            player=player,
+                            resolver=resolveurl)
                         link = links[0]
                         links = links[1:]
                     except:
@@ -167,7 +170,8 @@ class Sources(object):
                     showbusy=False,
                     ignore_dp=True,
                     item=listitem,
-                    player=player)
+                    player=player,
+                    resolver=resolveurl)
         else:
             if content == 'movie':
                 title = title
@@ -237,7 +241,8 @@ class Sources(object):
                                 showbusy=False,
                                 ignore_dp=True,
                                 item=listitem,
-                                player=player)
+                                player=player,
+                                resolver=resolveurl)
                             if result:
                                 return result
                         else:
@@ -251,7 +256,8 @@ class Sources(object):
                     showbusy=False,
                     ignore_dp=True,
                     item=listitem,
-                    player=player)
+                    player=player,
+                    resolver=resolveurl)
                 if result:
                     return result
 
@@ -265,7 +271,8 @@ class Sources(object):
                         showbusy=False,
                         ignore_dp=True,
                         item=listitem,
-                        player=player)
+                        player=player,
+                        resolver=resolveurl)
                     if result:
                         return result
                 else:
@@ -279,7 +286,8 @@ class Sources(object):
                     showbusy=False,
                     ignore_dp=True,
                     item=listitem,
-                    player=player)
+                    player=player,
+                    resolver=resolveurl)
                 if result:
                     return result
 
@@ -356,7 +364,8 @@ class Sources(object):
                             showbusy=False,
                             ignore_dp=True,
                             item=listitem,
-                            player=player)
+                            player=player,
+                            resolver=resolveurl)
                         link = links[0]
                         links = links[1:]
                     except:
@@ -368,7 +377,8 @@ class Sources(object):
                     showbusy=False,
                     ignore_dp=True,
                     item=listitem,
-                    player=player)
+                    player=player,
+                    resolver=resolveurl)
         links_scraper = nanscrapers.scrape_song(
             title,
             artist,
@@ -411,7 +421,8 @@ class Sources(object):
                             showbusy=False,
                             ignore_dp=True,
                             item=listitem,
-                            player=player)
+                            player=player,
+                            resolver=resolveurl)
                         if result:
                             return result
 
@@ -423,7 +434,8 @@ class Sources(object):
                     showbusy=False,
                     ignore_dp=True,
                     item=listitem,
-                    player=player)
+                    player=player,
+                    resolver=resolveurl)
                 if result:
                     return result
         except:
@@ -762,7 +774,8 @@ def get_sources(item):
                     showbusy=False,
                     ignore_dp=True,
                     item=listitem,
-                    player=jenplayer)
+                    player=jenplayer,
+                    resolver=resolveurl)
         else:
             # who knows
             busy_dialog.close()
