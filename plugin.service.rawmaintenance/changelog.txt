@@ -1,0 +1,9 @@
+0.0.1
+
+- First Attempt!
+
+0.1.2
+
+- try-catch error on android.  Anyone with a viable solution for finding
+	free disk space on android feel free to contact foreverska on github.
+	Thanks!

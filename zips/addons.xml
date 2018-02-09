@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="plugin.service.rawmaintenance"
+       name="Raw Maintenance Service"
+       version="0.1.2"
+       provider-name="Foreverska|Gombeek|Raw Media">
+  <extension point="xbmc.service" library="service.py" start="login">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Raw Maintinance</summary>
+    <description>
+	Your one stop tool for maintaining your device.
+	For support please visit www.no-issue.ca
+	Thank you to raw-media.ca for sponsoring the development of this add-on.
+    </description>
+    <language></language>
+    <license></license>
+    <source></source>
+    <forum></forum>
+    <website></website>
+  </extension>
+
+</addon>
+
 <addon id="plugin.video.jre" name="The Joe Rogan Experience" version="1.4" provider-name="A2TheKay--midraal">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
@@ -78,7 +101,7 @@
     </extension>
 </addon>
 
-<addon id="repository.digitalrevolution" name="Digital Revolution" version="0.0.2" provider-name="A2TheKay">
+<addon id="repository.digitalrevolution" name="Digital Revolution" version="0.0.3" provider-name="A2TheKay">
 	<extension point="xbmc.addon.repository" name="Digital Revolution">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
@@ -94,5 +117,31 @@
 		<description lang="en">Videos For Your Entertainment </description>
 		<genre>comedy,devtools,documentary,howto,movies,music,podcasts,sports,tech,tvshows,uk,usa</genre>
 	</extension>
+</addon>
+
+<addon id="script.rawmaintenance"
+       name="Raw Maintenance"
+       version="0.1.11"
+       provider-name="Foreverska|Gombeek|Raw Media">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Raw Maintinance</summary>
+    <description>
+	Your one stop tool for maintaining your device.
+	For support please visit www.no-issue.ca
+	Thank you to raw-media.ca for sponsoring the development of this add-on.
+    </description>
+    <language></language>
+    <license></license>
+    <source></source>
+    <forum></forum>
+    <website>www.no-issue.ca</website>
+  </extension>
 </addon>
 </addons>

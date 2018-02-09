@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.service.rawmaintenance"
+       name="Raw Maintenance Service"
+       version="0.1.2"
+       provider-name="Foreverska|Gombeek|Raw Media">
+  <extension point="xbmc.service" library="service.py" start="login">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Raw Maintinance</summary>
+    <description>
+	Your one stop tool for maintaining your device. 
+	For support please visit www.no-issue.ca 
+	Thank you to raw-media.ca for sponsoring the development of this add-on.
+    </description>
+    <language></language>
+    <license></license>
+    <source></source>
+    <forum></forum>
+    <website></website>
+  </extension>
+  
+</addon>
