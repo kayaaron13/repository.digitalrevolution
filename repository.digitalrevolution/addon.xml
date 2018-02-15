@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.digitalrevolution" name="Digital Revolution" version="0.0.6" provider-name="A2TheKay">
+<addon id="repository.digitalrevolution" name="Digital Revolution" version="0.0.7" provider-name="A2TheKay">
 	<extension point="xbmc.addon.repository" name="Digital Revolution">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
@@ -16,9 +16,9 @@
 			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
 		</dir>
-		<info compressed="false">https://raw.githubusercontent.com/kayaaron13/repository.digitalrevolution/master/zips/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/kayaaron13/repository.digitalrevolution/master/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/kayaaron13/repository.digitalrevolution/master/zips/</datadir>
+		<info compressed="false">https://gitlab.com/kayaaron13/repository.digitalrevolution/raw/master/zips/addons.xml</info>
+		<checksum>https://gitlab.com/kayaaron13/repository.digitalrevolution/raw/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://gitlab.com/kayaaron13/repository.digitalrevolution/tree/master/zips/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Videos For Your Entertainment </summary>
