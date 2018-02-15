@@ -106,7 +106,7 @@ ENABLE         = 'Yes'
 NOTIFICATION   = 'http://revolution-digital.net/wizard/txt/notify.txt'
 # Use either 'Text' or 'Image'
 HEADERTYPE     = 'Text'
-HEADERMESSAGE  = 'Digital Revolution Wizard'
+HEADERMESSAGE  = '[COLOR white]Digital Revolution Wizard[/COLOR]'
 # url to image if using Image 424x180
 HEADERIMAGE    = ''
 # Background for Notification Window

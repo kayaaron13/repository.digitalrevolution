@@ -83,6 +83,32 @@ provider-name="primaeval">
 
 </addon>
 
+<addon id="plugin.video.jre" name="The Joe Rogan Experience" version="1.5" provider-name="A2TheKay--midraal">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.resolveurl" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">Everything Joe Rogan</summary>
+      <description lang="en">Video Addon built on the Jen Template. Special Thanks goes out to Blue, Dabutcher, Q from Total RevolutionTV, and last but not least the godfather himself Midraal.</description>
+      <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+      <platform>all</platform>
+        <website>www.noobsandnerds.com</website>
+        <video_guide>xtOqLY5PJDY</video_guide>
+    </extension>
+</addon>
+
 <addon id="plugin.video.thedeadzone" name="The Dead Zone" version="0.4" provider-name="A2TheKay--midraal">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
@@ -135,7 +161,7 @@ provider-name="primaeval">
     </extension>
 </addon>
 
-<addon id="repository.digitalrevolution" name="Digital Revolution" version="0.0.7" provider-name="A2TheKay">
+<addon id="repository.digitalrevolution" name="Digital Revolution" version="0.0.9" provider-name="A2TheKay">
 	<extension point="xbmc.addon.repository" name="Digital Revolution">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
@@ -152,9 +178,9 @@ provider-name="primaeval">
 			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
 		</dir>
-		<info compressed="false">https://gitlab.com/kayaaron13/repository.digitalrevolution/raw/master/zips/addons.xml</info>
-		<checksum>https://gitlab.com/kayaaron13/repository.digitalrevolution/raw/master/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://gitlab.com/kayaaron13/repository.digitalrevolution/tree/master/zips/</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/kayaaron13/repository.digitalrevolution/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kayaaron13/repository.digitalrevolution/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kayaaron13/repository.digitalrevolution/master/zips/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Videos For Your Entertainment </summary>
