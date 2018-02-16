@@ -98,7 +98,7 @@ provider-name="primaeval">
 	</extension>
 </addon>
 
-<addon id="plugin.video.jre" name="The Joe Rogan Experience" version="1.9" provider-name="A2TheKay">
+<addon id="plugin.video.jre" name="The Joe Rogan Experience" version="2.0" provider-name="A2TheKay">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
