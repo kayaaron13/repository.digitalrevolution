@@ -98,10 +98,10 @@ provider-name="primaeval">
 	</extension>
 </addon>
 
-<addon id="plugin.video.jre" name="The Joe Rogan Experience" version="1.5" provider-name="A2TheKay--midraal">
+<addon id="plugin.video.jre" name="The Joe Rogan Experience" version="1.6" provider-name="A2TheKay--midraal">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.universalscrapers" version="1.0.0" />
         <import addon="script.module.python.koding.aio" version="0.9.6.6" />
         <import addon="script.module.beautifulsoup" version="3.2.1" />
         <import addon="script.module.requests" version="2.9.1" />
