@@ -1,39 +1,4 @@
 <dir>
-  <title>Pixar Animation</title>
-  <tmdb>company/movies/3</tmdb>
-</dir>
-
-<dir>
-  <title>Disney</title>
-  <tmdb>company/movies/6421</tmdb>
-</dir>
-
-<dir>
-  <title>Walt Disney Productions</title>
-  <tmdb>company/movies/3166</tmdb>
-</dir>
-
-<dir>
-  <title>Walt Disney Production</title>
-  <tmdb>company/movies/6470</tmdb>
-</dir>
-
-<dir>
-  <title>Walt Disney Animation Studios</title>
-  <tmdb>company/movies/6125</tmdb>
-</dir>
-
-<dir>
-  <title>Columbia TriStar</title>
-  <tmdb>company/movies/177</tmdb>
-</dir>
-
-<dir>
-  <title>Sony Pictures</title>
-  <tmdb>company/movies/34</tmdb>
-</dir>
-
-<dir>
   <title>40 Acres & A Mule Filmworks</title>
   <tmdb>company/movies/4319</tmdb>
 </dir>
@@ -44,8 +9,8 @@
 </dir>
 
 <dir>
-  <title>Sony Pictures Entertainment</title>
-  <tmdb>company/movies/5752</tmdb>
+  <title>Columbia TriStar</title>
+  <tmdb>company/movies/177</tmdb>
 </dir>
 
 <dir>
@@ -59,13 +24,13 @@
 </dir>
 
 <dir>
-  <title>DreamWorks</title>
-  <tmdb>company/movies/7</tmdb>
+  <title>Disney</title>
+  <tmdb>company/movies/6421</tmdb>
 </dir>
 
 <dir>
-  <title>DreamWorks SKG</title>
-  <tmdb>company/movies/27</tmdb>
+  <title>DreamWorks</title>
+  <tmdb>company/movies/7</tmdb>
 </dir>
 
 <dir>
@@ -79,13 +44,13 @@
 </dir>
 
 <dir>
-  <title>Focus Features</title>
-  <tmdb>company/movies/10146</tmdb>
+  <title>DreamWorks SKG</title>
+  <tmdb>company/movies/27</tmdb>
 </dir>
 
 <dir>
-  <title>Twentieth Century Fox Film Corporation</title>
-  <tmdb>company/movies/306</tmdb>
+  <title>Focus Features</title>
+  <tmdb>company/movies/10146</tmdb>
 </dir>
 
 <dir>
@@ -114,13 +79,13 @@
 </dir>
 
 <dir>
-  <title>Lions Gate Family Entertainment</title>
-  <tmdb>company/movies/6574</tmdb>
+  <title>Lions Gate Entertainments</title>
+  <tmdb>company/movies/7035</tmdb>
 </dir>
 
 <dir>
-  <title>Lions Gate Entertainments</title>
-  <tmdb>company/movies/7035</tmdb>
+  <title>Lions Gate Family Entertainment</title>
+  <tmdb>company/movies/6574</tmdb>
 </dir>
 
 <dir>
@@ -159,8 +124,23 @@
 </dir>
 
 <dir>
+  <title>Pixar Animation</title>
+  <tmdb>company/movies/3</tmdb>
+</dir>
+
+<dir>
   <title>Screen Gems</title>
   <tmdb>company/movies/3287</tmdb>
+</dir>
+
+<dir>
+  <title>Sony Pictures</title>
+  <tmdb>company/movies/34</tmdb>
+</dir>
+
+<dir>
+  <title>Sony Pictures Entertainment</title>
+  <tmdb>company/movies/5752</tmdb>
 </dir>
 
 <dir>
@@ -174,8 +154,18 @@
 </dir>
 
 <dir>
+  <title>The Weinstein Company</title>
+  <tmdb>company/movies/308</tmdb>
+</dir>
+
+<dir>
   <title>Touchstone Pictures</title>
   <tmdb>company/movies/9195</tmdb>
+</dir>
+
+<dir>
+  <title>Twentieth Century Fox Film Corporation</title>
+  <tmdb>company/movies/306</tmdb>
 </dir>
 
 <dir>
@@ -184,8 +174,8 @@
 </dir>
 
 <dir>
-  <title>Universal Studios</title>
-  <tmdb>company/movies/13</tmdb>
+  <title>Universal Animation Studios</title>
+  <tmdb>company/movies/5556</tmdb>
 </dir>
 
 <dir>
@@ -194,13 +184,23 @@
 </dir>
 
 <dir>
-  <title>Universal Animation Studios</title>
-  <tmdb>company/movies/5556</tmdb>
+  <title>Universal Studios</title>
+  <tmdb>company/movies/13</tmdb>
 </dir>
 
 <dir>
-  <title>Warner Bros. Entertainment</title>
-  <tmdb>company/movies/17</tmdb>
+  <title>Walt Disney Animation Studios</title>
+  <tmdb>company/movies/6125</tmdb>
+</dir>
+
+<dir>
+  <title>Walt Disney Production</title>
+  <tmdb>company/movies/6470</tmdb>
+</dir>
+
+<dir>
+  <title>Walt Disney Productions</title>
+  <tmdb>company/movies/3166</tmdb>
 </dir>
 
 <dir>
@@ -214,11 +214,12 @@
 </dir>
 
 <dir>
+  <title>Warner Bros. Entertainment</title>
+  <tmdb>company/movies/17</tmdb>
+</dir>
+
+<dir>
   <title>Warner Bros. Pictures</title>
   <tmdb>company/movies/174</tmdb>
 </dir>
 
-<dir>
-  <title>The Weinstein Company</title>
-  <tmdb>company/movies/308</tmdb>
-</dir>

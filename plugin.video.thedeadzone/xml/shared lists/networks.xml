@@ -1,4 +1,11 @@
 <dir>
+  <title></title>
+  <tmdb>network/shows/</tmdb>
+  <thumbnail></thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
   <title>A&E</title>
   <tmdb>network/shows/129</tmdb>
   <thumbnail></thumbnail>
@@ -18,15 +25,15 @@
 </dir>
 
 <dir>
+  <title>AMC</title>
+  <tmdb>network/shows/174</tmdb>
+</dir>
+
+<dir>
   <title>Amazon</title>
   <tmdb>network/shows/1024</tmdb>
   <thumbnail></thumbnail>
   <fantart></fantart>
-</dir>
-
-<dir>
-  <title>AMC</title>
-  <tmdb>network/shows/174</tmdb>
 </dir>
 
 <dir>
@@ -36,7 +43,6 @@
   <fantart></fantart>
 </dir>
 
-
 <dir>
   <title>Bravo</title>
   <tmdb>network/shows/312</tmdb>
@@ -45,22 +51,8 @@
 </dir>
 
 <dir>
-  <title>Cartoon Network</title>
-  <tmdb>network/shows/56</tmdb>
-  <thumbnail></thumbnail>
-  <fantart></fantart>
-</dir>
-
-<dir>
   <title>CBS</title>
   <tmdb>network/shows/16</tmdb>
-  <thumbnail></thumbnail>
-  <fantart></fantart>
-</dir>
-
-<dir>
-  <title>Cinemax</title>
-  <tmdb>network/shows/359</tmdb>
   <thumbnail></thumbnail>
   <fantart></fantart>
 </dir>
@@ -80,8 +72,29 @@
 </dir>
 
 <dir>
+  <title>Cartoon Network</title>
+  <tmdb>network/shows/56</tmdb>
+  <thumbnail></thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Cinemax</title>
+  <tmdb>network/shows/359</tmdb>
+  <thumbnail></thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
   <title>Comedy Central</title>
   <tmdb>network/shows/47</tmdb>
+  <thumbnail></thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>DIY Network</title>
+  <tmdb>network/shows/625</tmdb>
   <thumbnail></thumbnail>
   <fantart></fantart>
 </dir>
@@ -115,20 +128,6 @@
 </dir>
 
 <dir>
-  <title>DIY Network</title>
-  <tmdb>network/shows/625</tmdb>
-  <thumbnail></thumbnail>
-  <fantart></fantart>
-</dir>
-
-<dir>
-  <title>Fox</title>
-  <tmdb>network/shows/303</tmdb>
-  <thumbnail></thumbnail>
-  <fantart></fantart>
-</dir>
-
-<dir>
   <title>FX</title>
   <tmdb>network/shows/88</tmdb>
   <thumbnail></thumbnail>
@@ -143,8 +142,8 @@
 </dir>
 
 <dir>
-  <title>Hallmark</title>
-  <tmdb>network/shows/384</tmdb>
+  <title>Fox</title>
+  <tmdb>network/shows/303</tmdb>
   <thumbnail></thumbnail>
   <fantart></fantart>
 </dir>
@@ -164,21 +163,22 @@
 </dir>
 
 <dir>
-  <title>History</title>
-  <tmdb>network/shows/65</tmdb>
-  <thumbnail></thumbnail>
-  <fantart></fantart>
-</dir>
-<dir>
-  <title>Hulu</title>
-  <tmdb>network/shows/453</tmdb>
+  <title>Hallmark</title>
+  <tmdb>network/shows/384</tmdb>
   <thumbnail></thumbnail>
   <fantart></fantart>
 </dir>
 
 <dir>
-  <title>Investigation Discovery</title>
-  <tmdb>network/shows/244</tmdb>
+  <title>History</title>
+  <tmdb>network/shows/65</tmdb>
+  <thumbnail></thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Hulu</title>
+  <tmdb>network/shows/453</tmdb>
   <thumbnail></thumbnail>
   <fantart></fantart>
 </dir>
@@ -191,8 +191,8 @@
 </dir>
 
 <dir>
-  <title>The Lifestyle Channel</title>
-  <tmdb>network/shows/683</tmdb>
+  <title>Investigation Discovery</title>
+  <tmdb>network/shows/244</tmdb>
   <thumbnail></thumbnail>
   <fantart></fantart>
 </dir>
@@ -205,15 +205,15 @@
 </dir>
 
 <dir>
-  <title>The Movie Network</title>
-  <tmdb>network/shows/245</tmdb>
+  <title>MTV</title>
+  <tmdb>network/shows/33</tmdb>
   <thumbnail></thumbnail>
   <fantart></fantart>
 </dir>
 
 <dir>
-  <title>MTV</title>
-  <tmdb>network/shows/33</tmdb>
+  <title>NBC</title>
+  <tmdb>network/shows/6</tmdb>
   <thumbnail></thumbnail>
   <fantart></fantart>
 </dir>
@@ -228,13 +228,6 @@
 <dir>
   <title>National Geographic Channel</title>
   <tmdb>network/shows/799</tmdb>
-  <thumbnail></thumbnail>
-  <fantart></fantart>
-</dir>
-
-<dir>
-  <title>NBC</title>
-  <tmdb>network/shows/6</tmdb>
   <thumbnail></thumbnail>
   <fantart></fantart>
 </dir>
@@ -310,15 +303,29 @@
 </dir>
 
 <dir>
-  <title>Travel Channel</title>
-  <tmdb>network/shows/209</tmdb>
+  <title>TV Land</title>
+  <tmdb>network/shows/397</tmdb>
   <thumbnail></thumbnail>
   <fantart></fantart>
 </dir>
 
 <dir>
-  <title>TV Land</title>
-  <tmdb>network/shows/397</tmdb>
+  <title>The Lifestyle Channel</title>
+  <tmdb>network/shows/683</tmdb>
+  <thumbnail></thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>The Movie Network</title>
+  <tmdb>network/shows/245</tmdb>
+  <thumbnail></thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Travel Channel</title>
+  <tmdb>network/shows/209</tmdb>
   <thumbnail></thumbnail>
   <fantart></fantart>
 </dir>
@@ -331,48 +338,16 @@
 </dir>
 
 <dir>
-  <title>Velocity</title>
-  <tmdb>network/shows/435</tmdb>
-  <thumbnail></thumbnail>
-  <fantart></fantart>
-</dir>
-
-<dir>
   <title>VH1</title>
   <tmdb>network/shows/158</tmdb>
   <thumbnail></thumbnail>
   <fantart></fantart>
 </dir>
 
-
 <dir>
-  <title></title>
-  <tmdb>network/shows/</tmdb>
+  <title>Velocity</title>
+  <tmdb>network/shows/435</tmdb>
   <thumbnail></thumbnail>
   <fantart></fantart>
 </dir>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

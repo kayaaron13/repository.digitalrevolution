@@ -1,0 +1,59 @@
+"""
+    eimify.py --- Youraddonname Plugin to display lists in eim
+    Copyright (C) 2017, CandyLand
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+"""
+import pickle
+
+import xbmc
+import xbmcaddon
+import xbmcgui
+import urllib
+from language import get_string as _
+from resources.lib.util.url import get_addon_url
+
+from ..plugin import Plugin
+
+
+class Eimify(Plugin):
+    name = "eimify"
+    priority = 0
+
+    def display_list(self, items, content_type):
+        eim_items = convert_items_to_eim(items, content_type)
+        script = "RunScript(script.extendedinfo,info=jenlist, items={0})"
+        xbmc.executebuiltin(script.format(urllib.quote_plus(pickle.dumps(eim_items))))
+        return True
+
+
+def convert_items_to_eim(items, media_type):
+    eim_items = []
+    for item in items:
+        path = get_addon_url(item["mode"], item["url"])
+        result = {
+            "path": path,
+            "icon": item["icon"],
+            "thumb": item["icon"],
+            "label": item["label"],
+            "fanart": item["fanart"],
+            "media_type": media_type,
+        }
+        if "imdb" in item:
+            imdb = item["imdb"]
+            if imdb.startswith("tt"):
+                imdb = imdb[2:]
+            result["id"] = imdb
+        eim_items.append(result)
+    return eim_items

@@ -27,27 +27,6 @@
 </dir>
 
 <dir>
-<title>Barbie Fairytopia Collection</title>
-<tmdb>collection/411859</tmdb>
-<thumbnail>https://image.tmdb.org/t/p/w1280/4QBKl6GnvFZRd2r9UK9kMyRLBm1.jpg</thumbnail>
-<fanart>https://fanart.tv/fanart/movies/16962/moviebackground/barbie-fairytopia-magic-of-the-rainbow-52c5b546d27ec.jpg</fanart>
-</dir>
-
-<dir>
-<title>Barbie Mariposa Collection</title>
-<tmdb>collection/447622</tmdb>
-<thumbnail>https://image.tmdb.org/t/p/w1280/zPy6dlkTA2RNUr5sJE0lBwtWHA7.jpg</thumbnail>
-<fanart>https://fanart.tv/fanart/movies/16962/moviebackground/barbie-fairytopia-magic-of-the-rainbow-52c5b546d27ec.jpg</fanart>
-</dir>
-
-<dir>
-<title>Barbie A Mermaid Tale Collection</title>
-<tmdb>collection/422361</tmdb>
-<thumbnail>https://image.tmdb.org/t/p/w1280/xvvY9hj10DQjAwN2NCaFJS1Moii.jpg</thumbnail>
-<fanart>https://image.tmdb.org/t/p/original/hw43q6AkuoRDFvuSWsxDG0A5AK6.jpg</fanart>
-</dir>
-
-<dir>
 <title>Balto Collection</title>
 <tmdb>collection/117693</tmdb>
 <thumbnail>https://image.tmdb.org/t/p/w1280/w0ZgH6Lgxt2bQYnf1ss74UvYftm.jpg</thumbnail>
@@ -59,6 +38,27 @@
 <tmdb>collection/87250</tmdb>
 <thumbnail>https://image.tmdb.org/t/p/w1280/b941y7oiWBXJZaoWemW4exlpDxf.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/pdeV9HC6ECDvUfICMWeMHvWsCIa.jpg</fanart>
+</dir>
+
+<dir>
+<title>Barbie A Mermaid Tale Collection</title>
+<tmdb>collection/422361</tmdb>
+<thumbnail>https://image.tmdb.org/t/p/w1280/xvvY9hj10DQjAwN2NCaFJS1Moii.jpg</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/hw43q6AkuoRDFvuSWsxDG0A5AK6.jpg</fanart>
+</dir>
+
+<dir>
+<title>Barbie Fairytopia Collection</title>
+<tmdb>collection/411859</tmdb>
+<thumbnail>https://image.tmdb.org/t/p/w1280/4QBKl6GnvFZRd2r9UK9kMyRLBm1.jpg</thumbnail>
+<fanart>https://fanart.tv/fanart/movies/16962/moviebackground/barbie-fairytopia-magic-of-the-rainbow-52c5b546d27ec.jpg</fanart>
+</dir>
+
+<dir>
+<title>Barbie Mariposa Collection</title>
+<tmdb>collection/447622</tmdb>
+<thumbnail>https://image.tmdb.org/t/p/w1280/zPy6dlkTA2RNUr5sJE0lBwtWHA7.jpg</thumbnail>
+<fanart>https://fanart.tv/fanart/movies/16962/moviebackground/barbie-fairytopia-magic-of-the-rainbow-52c5b546d27ec.jpg</fanart>
 </dir>
 
 <dir>
@@ -97,13 +97,6 @@
 </dir>
 
 <dir>
-<title>The Croods Collection</title>
-<tmdb>collection/464577</tmdb>
-<thumbnail>https://image.tmdb.org/t/p/w1280/ngKY2KzudNpC7j8a0OWjJRY0tHv.jpg</thumbnail>
-<fanart>https://image.tmdb.org/t/p/original/kYY4CKjjknT1GY45ZueZs556Mnl.jpg</fanart>
-</dir>
-
-<dir>
 <title>Despicable Me Collection</title>
 <tmdb>collection/86066</tmdb>
 <thumbnail>https://image.tmdb.org/t/p/w1280/xIXhIlZDRmSSfNbpN7kBCm5hg39.jpg</thumbnail>
@@ -111,24 +104,10 @@
 </dir>
 
 <dir>
-<title>The Emperor's New Groove Collection</title>
-<tmdb>collection/178117</tmdb>
-<thumbnail>https://image.tmdb.org/t/p/w1280/gCRRjTXVnLrSQMpWGz1Bgz6Zy5Z.jpg</thumbnail>
-<fanart>https://image.tmdb.org/t/p/original/aa0VAu78vDJH9ukK8ORBj1SROfR.jpg</fanart>
-</dir>
-
-<dir>
 <title>Finding Nemo / Dory Collection</title>
 <tmdb>collection/137697</tmdb>
 <thumbnail>https://image.tmdb.org/t/p/w1280/xwggrEugjcJDuabIWvK2CpmK91z.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/2hC8HHRUvwRljYKIcQDMyMbLlxz.jpg</fanart>
-</dir>
-
-<dir>
-<title>The Fox And The Hound Collection</title>
-<tmdb>collection/100970</tmdb>
-<thumbnail>https://image.tmdb.org/t/p/w1280/ph2KiQxp8xmgA5ENoBhETvJnYw9.jpg</thumbnail>
-<fanart>https://image.tmdb.org/t/p/original/wJiejeVjnLjIlDZySlnSKMiU3em.jpg</fanart>
 </dir>
 
 <dir>
@@ -195,24 +174,10 @@
 </dir>
 
 <dir>
-<title>The Land Before Time Collection</title>
-<tmdb>collection/19163</tmdb>
-<thumbnail>https://image.tmdb.org/t/p/w1280/2YJayn34GLou7JXlnXWUsM4qqFe.jpg</thumbnail>
-<fanart>https://image.tmdb.org/t/p/original/t9svFw203MlNfgWb62HEHsrUxTt.jpg</fanart>
-</dir>
-
-<dir>
 <title>Lion King Collection</title>
 <tmdb>collection/94032</tmdb>
 <thumbnail>https://image.tmdb.org/t/p/w1280/oG1heUs503GV6xBnFhgyYTGWm05.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/A9IEaj9cPAwEgFnTmteB70oxgJY.jpg</fanart>
-</dir>
-
-<dir>
-<title>The Little Mermaid Collection</title>
-<tmdb>collection/33085</tmdb>
-<thumbnail>https://image.tmdb.org/t/p/w1280/y0EOuK02TasfRGSZBdv5U910QaV.jpg</thumbnail>
-<fanart>https://image.tmdb.org/t/p/original/gJBGcnhGhxoOpcqK29kZNq3UR6i.jpg</fanart>
 </dir>
 
 <dir>
@@ -293,6 +258,41 @@
 </dir>
 
 <dir>
+<title>The Croods Collection</title>
+<tmdb>collection/464577</tmdb>
+<thumbnail>https://image.tmdb.org/t/p/w1280/ngKY2KzudNpC7j8a0OWjJRY0tHv.jpg</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/kYY4CKjjknT1GY45ZueZs556Mnl.jpg</fanart>
+</dir>
+
+<dir>
+<title>The Emperor's New Groove Collection</title>
+<tmdb>collection/178117</tmdb>
+<thumbnail>https://image.tmdb.org/t/p/w1280/gCRRjTXVnLrSQMpWGz1Bgz6Zy5Z.jpg</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/aa0VAu78vDJH9ukK8ORBj1SROfR.jpg</fanart>
+</dir>
+
+<dir>
+<title>The Fox And The Hound Collection</title>
+<tmdb>collection/100970</tmdb>
+<thumbnail>https://image.tmdb.org/t/p/w1280/ph2KiQxp8xmgA5ENoBhETvJnYw9.jpg</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/wJiejeVjnLjIlDZySlnSKMiU3em.jpg</fanart>
+</dir>
+
+<dir>
+<title>The Land Before Time Collection</title>
+<tmdb>collection/19163</tmdb>
+<thumbnail>https://image.tmdb.org/t/p/w1280/2YJayn34GLou7JXlnXWUsM4qqFe.jpg</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/t9svFw203MlNfgWb62HEHsrUxTt.jpg</fanart>
+</dir>
+
+<dir>
+<title>The Little Mermaid Collection</title>
+<tmdb>collection/33085</tmdb>
+<thumbnail>https://image.tmdb.org/t/p/w1280/y0EOuK02TasfRGSZBdv5U910QaV.jpg</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/gJBGcnhGhxoOpcqK29kZNq3UR6i.jpg</fanart>
+</dir>
+
+<dir>
 <title>Tinkerbell Collection</title>
 <tmdb>collection/315595</tmdb>
 <thumbnail>https://image.tmdb.org/t/p/w1280/hXVUeEgLk1QyNDGtPZvI3tdKopM.jpg</thumbnail>
@@ -306,9 +306,3 @@
 <fanart>https://image.tmdb.org/t/p/original/9FBwqcd9IRruEDUrTdcaafOMKUq.jpg</fanart>
 </dir>
 
-dir>
-<title></title>
-<tmdb></tmdb>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</dir>
