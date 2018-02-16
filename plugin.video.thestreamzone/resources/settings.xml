@@ -33,7 +33,7 @@
       <setting label="30734" type="action" option="close"
                action="RunPlugin(plugin://plugin.video.thestreamzone/?mode=ScraperSettings)"/>
       <setting id="use_link_dialog" label="30744" type="bool" default="true" />
-      <setting id="link_fallthrough" label="30745" type="bool"	default="false" visible="eq(-1,true)"/>
+      <setting id="link_fallthrough" label="30745" type="bool"	default="true" visible="eq(-1,true)"/>
       <setting label="30741" type="lsep"/>
       <setting label="30742" type="action" option="close"
                action="RunPlugin(plugin://plugin.video.thestreamzone/?mode=ResolverSettings)"/>
@@ -64,8 +64,17 @@
     <category label="30770">
       <!-- debugging and developer options -->
       <setting id="debug" type="bool" label="30758" default="false" visible="true"/>
-      <setting id="first_run" label="first run" type="bool" default="true" visible="false"/>
+      <setting id="first_run" label="first run" type="bool" default="false" visible="false"/>
       <setting label="Cache Location" id="cache_folder" type="folder" default="special://profile/addon_data/plugin.video.thestreamzone/"/>
+      <setting label="TVDb api key" type="text" id="tvdb_api_key" option="hidden" default="" visible="eq(-3,true)"/>
+      <setting label="TMDb api key" type="text" id="tmdb_api_key" option="hidden" default="" visible="eq(-4,true)"/>
+      <setting label="Trakt client id" type="text" id="trakt_api_client_id" option="hidden" default="" visible="eq(-5,true)"/>
+      <setting label="Trakt client secret" type="text" id="trakt_api_client_secret" option="hidden" visible="!eq(-1,8b3c509d7ae20fb31efcf95a7f030da562c37a8f0d9cd100db6ac1a41970f8ac) + eq(-6,true)" default=""/>
+      <setting label="Last.fm api key" type="text" id="lastfm_api_key" option="hidden" default="" visible="eq(-7,true)"/>
+      <setting label="Last.fm secret" type="text" id="lastfm_secret" option="hidden" visible="!eq(-1,3ec34c514a9230ebf006c8e24a8419d6) + eq(-8,true)" default=""/>
+      <setting id="TRAKT_ACCESS_TOKEN" label="" type="text" visible="false"/>
+      <setting id="TRAKT_EXPIRES_AT" label="" type="text" visible="false"/>
+      <setting id="TRAKT_REFRESH_TOKEN" label="" type="text" visible="false"/>
     </category>
 
 
