@@ -98,10 +98,10 @@ provider-name="primaeval">
 	</extension>
 </addon>
 
-<addon id="plugin.video.jre" name="The Joe Rogan Experience" version="1.6" provider-name="A2TheKay--midraal">
+<addon id="plugin.video.jre" name="The Joe Rogan Experience" version="1.8" provider-name="A2TheKay--midraal">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.universalscrapers" version="1.0.0" />
+        <import addon="script.module.universalscrapers" version="1.0" />
         <import addon="script.module.python.koding.aio" version="0.9.6.6" />
         <import addon="script.module.beautifulsoup" version="3.2.1" />
         <import addon="script.module.requests" version="2.9.1" />
@@ -116,11 +116,11 @@ provider-name="primaeval">
     <extension point="xbmc.service" library="service.py" start="[login|startup]" />
     <extension point="xbmc.addon.metadata">
       <summary lang="en">Everything Joe Rogan</summary>
-      <description lang="en">Video Addon built on the Jen Template. Special Thanks goes out to Blue, Dabutcher, Q from Total RevolutionTV, and last but not least the godfather himself Midraal.</description>
-      <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+      <disclaimer lang="en">Video Addon built on the Jen Template. Special Thanks goes out to Blue, Dabutcher, Q from Total RevolutionTV, and last but not least the godfather himself Midraal.</disclaimer>
+      <disclaimer lang="he">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
       <platform>all</platform>
-        <website>www.noobsandnerds.com</website>
-        <video_guide>xtOqLY5PJDY</video_guide>
+        <website></website>
+        <video_guide></video_guide>
     </extension>
 </addon>
 
