@@ -19,6 +19,6 @@
                 <description lang="en">Scrape common video host for URL's to be playable in XBMC/Kodi, simplifying addon development of video plugins requiring multi video hosts.
                 </description>
                 <license>GPL v3</license>
-                <source>https://gitlab.com/TeamUniversal/modules4all/raw/master/script.module.universalscrapers/</source>
+                <source>http://theunjudged.com/Universal/script.module.universalscrapers</source>
         </extension>
 </addon>
