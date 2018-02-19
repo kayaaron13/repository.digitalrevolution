@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.digitalrevolution" name="Digital Revolution" version="0.1.7" provider-name="A2TheKay">
+<addon id="repository.digitalrevolution" name="Digital Revolution" version="0.1.9" provider-name="A2TheKay">
 	<extension point="xbmc.addon.repository" name="Digital Revolution">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
